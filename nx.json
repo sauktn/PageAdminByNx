@@ -1,0 +1,33 @@
+{
+  "npmScope": "page-admin",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "web-app-e2e": {
+      "tags": []
+    },
+    "web-app": {
+      "tags": []
+    },
+    "admin-web-ui-web": {
+      "tags": []
+    },
+    "admin-web-ui-web-src-lib-left-menu": {
+      "tags": []
+    },
+    "admin-web-ui-web-src-lib-top-menu": {
+      "tags": []
+    },
+    "admin-web-common": {
+      "tags": []
+    },
+    "admin-web-core": {
+      "tags": []
+    }
+  }
+}

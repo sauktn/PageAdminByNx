@@ -1,0 +1,25 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@page-admin/admin-web/ui-web": ["libs/admin-web/ui-web/src/index.ts"],
+      "@page-admin/admin-web/ui-web/left-menu": ["libs/admin-web/ui-web/src/lib/left-menu/index.ts"],
+      "@page-admin/admin-web/ui-web/top-menu": ["libs/admin-web/ui-web/src/lib/top-menu/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
